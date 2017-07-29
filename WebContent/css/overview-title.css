@@ -1,0 +1,52 @@
+body {
+      margin: 0 auto;
+      background-color: #3F4657;
+  }
+
+.s1 {
+    color: #82BECD;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 1.5%;
+    float: left;
+}
+
+.s2 {
+    margin-top: 21px;
+    margin-left: 6%;
+    float: left;
+}
+
+.s2 a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.s3 {
+    margin-top: 21px;
+    margin-left: 62.2%;
+    float: left;
+}
+
+.s3 a {
+    width: 120%;
+    height: 25px;
+    background-color: #D4D4D8;
+    border: solid 2px #82BECD;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+    color: #82BECD;
+}
+/*开发者中心链接*/
+.s3 a:link {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.s3 a:hover {
+    color: #D4D4D8;
+    text-decoration: none;
+    background-color: #82BECD;
+}

@@ -1,0 +1,115 @@
+.content{
+    margin:0 auto;
+    width:70%;
+    height:185%;
+    background-color: #F0F1F5;
+    /*background-color: red;*/
+}
+.navs{
+    background-color: #CFCFCF;
+    height:3.5%;
+}
+.last{
+    float: right;
+    margin-top: 0.5%;
+}
+#public{
+    margin-top: 5%;
+    background-color: #CFCFCF;
+    width:45%;
+	display:inline;
+	float:left;
+	margin-left:3.4%;
+}
+#public h3{
+    color:#0CC2F1;
+    display: inline-block;
+    margin-right: 3%;
+}
+#public img{
+    margin: 0 3%;
+}
+#public table{
+    width:100%;
+}
+#public table td{
+    width:25%;
+}
+#private{
+    display: none;
+    width:30%;
+    margin:0 auto;
+    padding-top: 10%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+}
+.product img{
+    -webkit-border-radius: 50%;
+}
+#private a:hover{
+    text-decoration: none;
+}
+.btn a:hover{
+    text-decoration: none;
+}
+#product_info{
+    display: none;
+}
+#product_info form{
+    margin:3% 5%;
+}
+
+#product_info form tr {
+    margin-top: 3%;
+}
+#data{
+    display: none;
+}
+#container1{
+    margin-top: 5%;
+    float: left;
+    margin-left: 1%;
+}
+#container2{
+    margin-top: 5%;
+    float: left;
+    margin-left: 18%;
+}
+/*底部*/
+.footer {
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/footerBg.jpg");
+}
+
+.footer ul {
+    width: 86.4%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.footer ul li {
+    float: left;
+    width: 14.4%;
+    height: 100%;
+    text-align: center;
+}
+
+.footer ul li a {
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    display: block;
+    color: #666E71;
+    text-align: center;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+
+.change {
+    background-color: #1E2428;
+}
+

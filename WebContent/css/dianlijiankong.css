@@ -1,0 +1,190 @@
+body{padding:0;margin:0;}
+li{list-style-type: none;}
+/*logo块*/
+nav{width:100%;overflow: hidden;height:80px;}
+.logoDiv {
+    height: 50%;
+    width: 18%;
+    margin-left: 0;
+    margin-top: -7px;
+    /*border-right: solid 1px #F0F1F5;*/
+    float: left;
+}
+.logoDiv img{
+    margin-top:0px;
+    width:70%;
+    height:80px;
+}
+
+/*链接块*/
+.l {
+    height: 57%;
+    width: 38%;
+    margin-left: 0;
+    margin-top: 25px;
+    float: left;
+}
+
+.l a {
+    display: block;
+    margin-left: 6%;
+    float: left;
+    font-size: 18px;
+}
+
+.l a:link {
+    text-decoration: none;
+    color: #3C3C3D;
+}
+
+.l a:hover {
+    text-decoration: none;
+    color: #4CBEFB;
+}
+
+/*注册块*/
+.register {
+    margin-right: 7%;
+    margin-top: 0;
+    height: 86%;
+    width: 4.4%;
+    float: right;
+}
+
+.register a {
+    border: #80848e 1px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 25px;
+    display: block;
+    margin-top: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4px;
+    color: #80848e;
+}
+
+.register a:hover {
+    background-color: #B4BAC9;
+    color: #FCFCFD;
+}
+
+/*登录块*/
+.login {
+    margin-right: 2%;
+    margin-top: 0;
+    height: 60px;
+    width: 4.4%;
+    float: right;
+}
+
+.login a {
+    border-radius: 20px;
+    width: 100%;
+    height: 26px;
+    display: block;
+    margin-top: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4px;
+    color: #FEFEFE;
+    background-color: #0CC2F1;
+}
+
+.login a:hover {
+    background-color: #49D9FE;
+    color: #FFFFFF;
+}
+
+/*开发者中心*/
+.s3 {
+    margin-top: 21px;
+    margin-left: 25%;
+    float: left;
+}
+
+.s3 a {
+    width: 120%;
+    height: 25px;
+    background-color: white;
+    border: solid 2px #23BEFE;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+    color: #23BEFE;
+}
+/*开发者中心链接*/
+.s3 a:link {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.s3 a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #23BEFE;
+}
+
+.s4 {
+    margin-top: 21px;
+    margin-left: 3%;
+    float: left;
+}
+
+.s5 {
+    margin-top: 8px;
+    margin-left: 1%;
+    float: left;
+}
+
+.content{margin:0 auto;width:80%;}
+.content .media-left p{font-size:14px;font-weight:bold;padding-bottom: 10px;}
+.content img{width:150px;height:150px;border-radius: 20px;}
+.content .body_con{margin-top:50px;margin-left:20px;}
+.show{margin:0 auto;margin: 50px 0;overflow: hidden;}
+.show span,.pingjia span{font-size: 20px;font-weight:bold;}
+.info-left{width:60%;float:left;}
+.info-left .data_show{margin:30px 0;}
+.info-left #msg{width:80%;height:150px;}
+.info-left #msg_c li{width:80%;border-color: #878787; border-style: solid;border-top-width: 0px; border-right-width: 0px;  border-bottom-width: 1px;  border-left-width: 0px;}
+.info-left #msg_c span{font-size: 14px;}
+/*底部*/
+.footer {
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/footerBg.jpg");
+}
+
+.footer ul {
+    width: 86.4%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.footer ul li {
+    float: left;
+    width: 14.4%;
+    height: 100%;
+    text-align: center;
+}
+
+.footer ul li a {
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    display: block;
+    color: #666E71;
+    text-align: center;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+
+.change {
+    background-color: #1E2428;
+}
+
+
+

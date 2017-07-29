@@ -1,0 +1,58 @@
+/*右侧内容部分css文件*/
+body {
+    position: absolute;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+/*定义整个文字盒子的基本属性*/
+.s1 {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 960px;
+    left: 50px;
+    top: 25px;
+}
+/*蓝色小圆点*/
+.s1 span {
+    color: #00B0F0;
+}
+/*标题字体*/
+.s2 {
+    font-size: 25px;
+}
+/*大蓝色标题*/
+.s3 {
+    font-size: 20px;
+    color: #00B0F0;
+    font-weight: bold;
+}
+/*第一个图片*/
+.s4 {
+    width: 960px;
+    height: 297px;
+}
+/*第二个图片*/
+.s5 {
+    width: 960px;
+    height: 657px;
+}
+/*小蓝色标题*/
+.s6 {
+    font-size: 18px;
+    color: #00B0F0;
+    font-weight: bold;
+}
+/*各分块与上一块之间的距离*/
+.s7 {
+    margin-top: 50px;
+}
+/*平台概述图标*/
+.s8 {
+    position: relative;
+    top: 11px;
+    float: left;
+}
+/*设定最后一块的下边距*/
+.s9 {
+    margin-bottom: 120px;
+}

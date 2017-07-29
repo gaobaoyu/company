@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="cn.equipment.bean.Equipment" table="equipment">
+		<id name="equipmentId" type="java.lang.Integer">
+			<column name="equipmentId" />
+			<generator class="native"/>
+		</id>
+		<property name="name" type="java.lang.String">
+			<column name="name" />
+		</property>
+		<property name="info" type="java.lang.String">
+			<column name="info" />
+		</property>
+		<property name="userId" type="java.lang.Integer">
+			<column name="userId" />
+		</property>
+		<property name="photo" type="java.lang.String">
+			<column name="photo" />
+		</property>
+	</class>
+</hibernate-mapping>

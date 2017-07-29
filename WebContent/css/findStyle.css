@@ -1,0 +1,163 @@
+body{margin:0;padding:0;}
+
+
+a{text-decoration:none;}
+#content{width:80%;}
+#myCarousel{width:75%;margin:0 auto;}
+/* .carousel-inner{overflow:hidden;} */
+.carousel-inner .li_zi{width:1000px;height:300px;}
+.carousel-inner img{width:100%;height:100%;}
+
+.row{width:100%;margin: 80px 0 40px 0;}
+.row p{margin:0;text-align: center;}
+.row .imgHere{width:200px;height:150px;}
+.row .imgHere img{width:200px;height:150px;margin-left:15px;}
+.more{width:80%;margin:0 auto;}
+.more .more_say span{font-size: 20px;font-weight:bold;}
+.more .dianzan span:first-child{font-size:18px;}
+.more .zan{padding-left:40px;}
+.more .zan1{padding-left:40px; color: red;}
+.create{width:80%;margin:0 auto;}
+.create span{font-size: 20px;font-weight:bold;}
+.create img{width:100%;margin-bottom: 50px;}
+.newUser{width:80%;margin: 0 auto;}
+.act{background: url("../images/act-bg.png")100% 100%;}
+.act-title ,.act-more{text-align: center;color: white;font-size: 30px;padding-top:20px;}
+.act-button{text-align: center;padding:40px 0;}
+.act-button button{margin: 0 30px;}
+
+/*µ×²¿*/
+.footer {
+	width: 100%;
+	height: 350px;
+	background-image: url("../images/footerBg.jpg");
+}
+
+.footer ul {
+	width: 86.4%;
+	height: 100%;
+	margin-left: 5%;
+}
+
+.footer ul li {
+	float: left;
+	width: 14.4%;
+	height: 100%;
+	text-align: center;
+}
+
+.footer ul li a {
+	width: 100%;
+	height: 20px;
+	text-decoration: none;
+	display: block;
+	color: #666E71;
+	text-align: center;
+}
+
+.footer ul li a:hover {
+	color: white;
+}
+
+
+.change {
+	background-color: #1E2428;
+}
+
+span.pagination {
+	height: 40px;
+	padding-top: -60px;
+	font-size:20px;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+span.pagination a, div.pagination span {
+	height: 18px;
+	line-height: 18px;
+	display: inline;
+	float: left;
+	margin-left: 3px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+}
+
+span.pagination a {
+	padding: 0px 5px;
+	border: 1px solid #cccccc;
+}
+
+span.pagination a:hover {
+	border: 1px solid #fd6d01;
+	text-decoration: none;
+}
+
+span.pagination a.previousPage {
+	width: 18px;
+	padding: 0px;
+	background: url(../images/common.gif) 0px -180px no-repeat;
+}
+
+span.pagination span.previousPage {
+	width: 18px;
+	cursor: default;
+	border: 1px solid #cccccc;
+	background: url(../images/common.gif) -30px -180px no-repeat;
+}
+
+span.pagination a.nextPage {
+	width: 18px;
+	padding: 0px;
+	background: url(../images/common.gif) 0px -210px no-repeat;
+}
+
+span.pagination span.nextPage {
+	width: 18px;
+	cursor: default;
+	border: 1px solid #cccccc;
+	background: url(../images/common.gif) -30px -210px no-repeat;
+}
+
+span.pagination a.firstPage {
+	width: 18px;
+	padding: 0px;
+	background: url(../images/common.gif) -60px -180px no-repeat;
+}
+
+span.pagination span.firstPage {
+	width: 18px;
+	cursor: default;
+	border: 1px solid #cccccc;
+	background: url(../images/common.gif) -90px -180px no-repeat;
+}
+
+span.pagination a.lastPage {
+	width: 18px;
+	padding: 0px;
+	background: url(../images/common.gif) -60px -210px no-repeat;
+}
+
+span.pagination span.lastPage {
+	width: 18px;
+	cursor: default;
+	border: 1px solid #cccccc;
+	background: url(../images/common.gif) -90px -210px no-repeat;
+}
+
+span.pagination .currentPage {
+	padding: 0px 5px;
+	color: #fd6d01!important;
+	font-weight: bold;
+	cursor: default;
+	border: 1px solid #fd6d01;
+	background-color: #ffede1;
+}
+
+span.pagination .pageBreak {
+	padding: 0px 5px;
+	color: #3366cc;
+	cursor: default;
+}
